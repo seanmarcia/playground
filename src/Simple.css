@@ -7,7 +7,7 @@
     --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 
     /* Default (light) theme */
-    --bg: #fff;
+    --bg: #faf4f4;
     --accent-bg: #f5f7ff;
     --text: #212121;
     --text-light: #585858;
@@ -318,6 +318,10 @@
     padding: 1rem;
     border-radius: 5px;
     margin-bottom: 1rem;
+  }
+
+  article {
+    border: 1px solid var(--border);
   }
 
   article h2:first-child,

@@ -3,6 +3,7 @@ import SelectDpg from "./Selectdpg";
 import Select from "react-select";
 import SdgList from "./sdglist";
 import GithubInputs from "./githubInputs";
+import SkillsBased from './skillsbased';
 
 export default function DpgTable() {
   const [dpgType, setDpgtype] = useState()
@@ -13,9 +14,11 @@ export default function DpgTable() {
 
 
   return (
-    <div className="App">
-      <h3>Select DPG Type</h3>
+    <div className="main">
+      <p class="notice">
+      <strong>Select Your Type of DPG</strong><br />
       <SelectDpg dpgType={dpgType} setValue={setValue} setDpgtype={setDpgtype} value={value}/>
+      {dpgType && <span>Select The Digital Public Good</span>}
       {dpgType && <Select
         name="dpgs"
         options={dpgData}
@@ -30,7 +33,10 @@ export default function DpgTable() {
       {value && <p>
         Selected DPG <strong>{value.name}</strong> Type: <strong>{dpgType}</strong>
       </p>}
+      </p>
       {value && <SdgList organization={organization} repo={repo} selectedSdg={value}/>}
+      <br/>
+      {value && <SkillsBased />}
     </div>
   );
 }

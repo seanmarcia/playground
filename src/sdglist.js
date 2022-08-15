@@ -1,5 +1,5 @@
 import SDGTABLE from "./SDGTABLE";
-import {CopyBlock, dracula} from "react-code-blocks";
+import {CopyBlock, github} from "react-code-blocks";
 
 export default function SdgList({organization, repo, selectedSdg}) {
   const initialRows = ['<p align="center">',
@@ -66,7 +66,7 @@ export default function SdgList({organization, repo, selectedSdg}) {
         language="markdown"
         text={combinedRows.join('\n')}
         codeBlock
-        theme={dracula}
+        theme={github}
         showLineNumbers={true}
       />
     </div>
