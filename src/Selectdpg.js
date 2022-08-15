@@ -4,10 +4,11 @@ export default function SelectDpg({dpgType, setDpgtype, setValue}) {
         setValue(null)
       }
     return (
-    <>
+    <fieldset>
     <input
       type="radio"
       name="dpgtype"
+      className="radio"
       value="Accepted"
       id="accepted"
       checked={dpgType === 'Accepted'}
@@ -18,12 +19,13 @@ export default function SelectDpg({dpgType, setDpgtype, setValue}) {
     <input
       type="radio"
       name="dpgtype"
+      className="radio"
       value="Nominee"
       id="nominee"
       checked={dpgType === 'Nominee'}
       onChange={handleChange}
       />
     <label htmlFor="medium">Nominee</label>
-    </>
+    </fieldset>
     )
   }
