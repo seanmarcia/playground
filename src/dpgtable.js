@@ -29,13 +29,11 @@ export default function DpgTable() {
       />}
       <br/>
       {dpgType && <GithubInputs setRepo={setRepo} setOrganization={setOrganization} />}
-      {console.log(repo)}
       {value && <p>
         Selected DPG <strong>{value.name}</strong> Type: <strong>{dpgType}</strong>
       </p>}
       </p>
       {value && <SdgList organization={organization} repo={repo} selectedSdg={value}/>}
-      <br/>
       {value && <SkillsBased />}
     </div>
   );
