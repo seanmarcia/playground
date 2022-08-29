@@ -2292,6 +2292,79 @@
     "stage": "DPG"
   },
   {
+    "id": "global-human-settlement-layer",
+    "name": "Global Human Settlement Layer",
+    "aliases": [
+      "GHSL"
+    ],
+    "description": "GHSL provides analysis ready, global, geospatial data reporting about the presence of population and human settlements",
+    "website": "https://ghsl.jrc.ec.europa.eu",
+    "license": [
+      {
+        "spdx": "CC-BY-4.0",
+        "licenseURL": "https://ec.europa.eu/info/legal-notice_en"
+      }
+    ],
+    "SDGs": [
+      {
+        "SDGNumber": 1,
+        "evidenceText": "There are a number of SDG indicators that require an urban-rural disaggregation, for example SDG 1.1.1. The GHSL data were used to develop the Degree of Urbanisation method to delineate cities, urban and rural areas. The UN Statistical Commission endorsed thin in 2020 for international comparison including the SDGs"
+      },
+      {
+        "SDGNumber": 2,
+        "evidenceText": "There are a number of SDG indicators that require an urban-rural disaggregation, for example SDG 2.4.1 The GHSL data were used to develop the Degree of Urbanisation method to delineate cities, urban and rural areas. The UN Statistical Commission endorsed thin in 2020 for international comparison including the SDGs."
+      },
+      {
+        "SDGNumber": 3,
+        "evidenceText": "There are a number of SDG indicators that require an urban-rural disaggregation, for example SDG 3.3.1. The GHSL data were used to develop the Degree of Urbanisation method to delineate cities, urban and rural areas. The UN Statistical Commission endorsed thin in 2020 for international comparison including the SDGs"
+      },
+      {
+        "SDGNumber": 4,
+        "evidenceText": "There are a number of SDG indicators that require an urban-rural disaggregation, for example SDG 4.5.1. The GHSL data were used to develop the Degree of Urbanisation method to delineate cities, urban and rural areas. The UN Statistical Commission endorsed thin in 2020 for international comparison including the SDGs"
+      },
+      {
+        "SDGNumber": 6,
+        "evidenceText": "In this article, the GHSL population data were used to assess the number of people with access to water.",
+        "evidenceURL": "https://ucl.scienceopen.com/hosted-document?doi=10.14324/111.444/ucloe.000026"
+      },
+      {
+        "SDGNumber": 7,
+        "evidenceText": "The GHSL data on population and settlements can be used to assess the number of people with access to electricity disaggregated by urban and rural share",
+        "evidenceURL": "https://doi.org/10.1016/j.rser.2021.111282"
+      },
+      {
+        "SDGNumber": 9,
+        "evidenceText": "The GHSL data on population and settlements can measure the rural population with access to an all weather road",
+        "evidenceURL": "https://onlinelibrary.wiley.com/doi/full/10.1111/tgis.12721"
+      },
+      {
+        "SDGNumber": 11,
+        "evidenceText": "GHSL data allow calculating directly the SDG 11.3.1 (land use efficiency). The data are also used for generating information on SDG 11.6.2 (air quality in cities) and SDG 11.7.1 (urban green)",
+        "evidenceURL": "http://dx.doi.org/10.3390/su11205674"
+      }
+    ],
+    "sectors": [
+      "Sustainable Cities"
+    ],
+    "type": [
+      "data"
+    ],
+    "repositories": [
+      {
+        "name": "Data & tools",
+        "url": "https://ghsl.jrc.ec.europa.eu/download.php"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "European Commission",
+        "website": "https://ec.europa.eu",
+        "org_type": "owner"
+      }
+    ],
+    "stage": "DPG"
+  },
+  {
     "id": "global-open-facility-registry",
     "name": "Global Open Facility Registry",
     "aliases": [
@@ -2957,7 +3030,7 @@
     "repositories": [
       {
         "name": "main",
-        "url": "https://github.com/kiva"
+        "url": "https://github.com/kiva/protocol-common"
       }
     ],
     "organizations": [
@@ -4092,6 +4165,56 @@
         "org_type": "owner",
         "contact_name": "SanchezPausDiaz, Alfonso",
         "contact_email": "alfonso.sanchezpausdiaz@fao.org"
+      }
+    ],
+    "stage": "DPG"
+  },
+  {
+    "id": "openattestation",
+    "name": "OpenAttestation",
+    "aliases": [
+      ""
+    ],
+    "description": "OpenAttestation is an open-sourced framework that allows for trustworthy education data-sharing by facilitating the decentralised issuance, storage and verification of academic and training documents, in line with applicable data privacy regulations.",
+    "website": "https://www.openattestation.com/",
+    "license": [
+      {
+        "spdx": "Apache-2.0",
+        "licenseURL": "https://github.com/Open-Attestation/open-attestation/blob/master/LICENSE"
+      }
+    ],
+    "SDGs": [
+      {
+        "SDGNumber": 3,
+        "evidenceURL": "https://www.healthcerts.gov.sg/"
+      },
+      {
+        "SDGNumber": 4,
+        "evidenceText": "Distributed-ledger technologies are a decentralized, transactional database technology that facilitate validated and peer-to-peer transactions that are consistent across a large number of anonymous network participants - sometimes referred to as nodes. Given its decentralized and tamper-resistant nature, distributed-ledger technology comes with promises of tackling issues of information traceability, accountability, and integrity among a wide variety of individuals, organizations, and institutions across society while improving privacy, transparency, robustness, trustworthiness, and authenticity.   The applications of emerging technology have been proliferating in various sectors and, among them, the education field. Distributed-ledger technology can be harnessed to address challenges to issue and verification of educational data. OpenAttestation is an open-sourced framework that supports the issuance, storage, and verification of different types of academic information, and complies with applicable regulations, protecting the privacy of users' personal data, all these benefits align with and make contributions to SDG 4: Quality Education. ",
+        "evidenceURL": "https://www.openattestation.com/"
+      },
+      {
+        "SDGNumber": 16,
+        "evidenceURL": "https://www.customs.gov.sg/news-and-media/media-releases/2021-08-18-Media-Release.pdf"
+      }
+    ],
+    "sectors": [],
+    "type": [
+      "software"
+    ],
+    "repositories": [
+      {
+        "name": "main",
+        "url": "https://github.com/Open-Attestation/open-attestation"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Government Technology Agency, Singapore",
+        "website": "https://www.tech.gov.sg",
+        "org_type": "owner",
+        "contact_name": "Barry Lim",
+        "contact_email": "OpenAttestation_Support@tech.gov.sg"
       }
     ],
     "stage": "DPG"
@@ -5243,6 +5366,63 @@
     "stage": "DPG"
   },
   {
+    "id": "sentinel-2-10m-land-cover-time-series-of-the-world-from-2017-2021",
+    "name": "Sentinel-2 10m Land Cover Time Series of the World from 2017-2021",
+    "aliases": [
+      ""
+    ],
+    "description": "Sentinel-2 10m Land Cover Time Series provides public access to global land use and land cover data of the world from 2017-2021 with 10 meter resolution.",
+    "website": "https://www.arcgis.com/home/item.html?id=d3da5dd386d140cf93fc9ecbf8da5e31",
+    "license": [
+      {
+        "spdx": "CC-BY-4.0",
+        "licenseURL": "https://www.arcgis.com/home/item.html?id=d3da5dd386d140cf93fc9ecbf8da5e31"
+      }
+    ],
+    "SDGs": [
+      {
+        "SDGNumber": 2,
+        "evidenceText": "Mapping global agricultural lands, and related land conversion, directly supports work to increase food security. Esri 2020 Land Cover 10m (IO) layer displays a global map of land use/land cover (LULC). The map is derived from ESA Sentinel-2 imagery at 10m resolution. It is a composite of LULC predictions for 10 classes throughout the year in order to generate a representative snapshot of 2020. It includes classifications for crops and flooded vegetation."
+      },
+      {
+        "SDGNumber": 11,
+        "evidenceText": "Mapped urban areas and trends in urban development can be seen on the LULC map. At 10m scale we can also identify large green spaces in urban areas and agricultural peripheries. "
+      },
+      {
+        "SDGNumber": 13,
+        "evidenceText": "Land cover conversion plays a major role in CO2 emissions (e.g. deforestation and conversion of other natural habitats) as well as climate resilience (mapping forests, mangroves, etc, for nature-based climate solutions).  The LULC map, in combination with climate and carbon models, helps users identify important areas for natural carbon.  "
+      },
+      {
+        "SDGNumber": 15,
+        "evidenceText": "The LULC map is directly tied to how we live on land and can map land cover conversion over time."
+      }
+    ],
+    "sectors": [
+      "Agriculture",
+      "Climate",
+      "Sustainable Cities"
+    ],
+    "type": [
+      "data"
+    ],
+    "repositories": [
+      {
+        "name": "main",
+        "url": "https://www.arcgis.com/home/item.html?id=d3da5dd386d140cf93fc9ecbf8da5e31"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Impact Observatory",
+        "website": "https://www.impactobservatory.com/",
+        "org_type": "maintainer",
+        "contact_name": "Katy Densmore",
+        "contact_email": "katy@impactobservatory.com"
+      }
+    ],
+    "stage": "DPG"
+  },
+  {
     "id": "simple",
     "name": "Simple",
     "aliases": [
@@ -6276,6 +6456,48 @@
         "org_type": "owner",
         "contact_name": "Rhoda Omenya",
         "contact_email": "rhoda@ushahidi.com"
+      }
+    ],
+    "stage": "DPG"
+  },
+  {
+    "id": "uwazi",
+    "name": "Uwazi",
+    "aliases": [
+      ""
+    ],
+    "description": "Uwazi is a web-based database application designed for human rights defenders to manage collections of information, including documents, evidence, cases and complaints. ",
+    "website": "https://huridocs.org/technology/uwazi/",
+    "license": [
+      {
+        "spdx": "MIT",
+        "licenseURL": "https://github.com/huridocs/uwazi/blob/development/LICENSE"
+      }
+    ],
+    "SDGs": [
+      {
+        "SDGNumber": 16,
+        "evidenceText": "We collaborate with local activist groups, national human rights institutions, large international NGOs and many organisations in between. Some of our partners specialise in specific issues such as arbitrary arrest, freedom of expression, historical memory, and transitional justice, while others focus on human rights-related mechanisms such as the United Nations Human Rights Treaty System. Beyond their shared commitment to dignity and freedom, our partners have an important thing in common: they achieve greater impact when the information they need is easy to access, navigate and understand.",
+        "evidenceURL": "https://huridocs.org/initiatives/developing-uwazi-a-human-rights-database-tool/"
+      }
+    ],
+    "sectors": [],
+    "type": [
+      "software"
+    ],
+    "repositories": [
+      {
+        "name": "Main",
+        "url": "https://github.com/huridocs/uwazi"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "HURIDOCS",
+        "website": "https://www.huridocs.org",
+        "org_type": "owner",
+        "contact_name": "Friedhelm Weinberg (Executive Director)",
+        "contact_email": "friedhelm@huridocs.org"
       }
     ],
     "stage": "DPG"
