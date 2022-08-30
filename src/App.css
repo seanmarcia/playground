@@ -8,6 +8,9 @@
   font-size: 1rem;
 }
 
+.avatar{
+  text-align: center;
+}
 .blog-item {
   margin-bottom: 4rem;
 }
@@ -22,7 +25,8 @@ nav a.current {
   border: 2px solid var(--border);
   border-radius: 5px;
   padding: 1.5rem;
-  margin: 2rem 0;
+  margin: 2rem;
+  margin-bottom: 3rem;
 }
 
 .medium {

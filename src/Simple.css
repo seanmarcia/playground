@@ -508,8 +508,9 @@
 
   img,
   video {
+    padding: 20px 5px;
     max-width: 100%;
-    height: auto;
+    height: 140px;
     border-radius: 5px;
   }
 

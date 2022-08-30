@@ -1,6 +1,6 @@
 export default function SkillsBased() {
     return (
-        <p class="notice">
+        <div className="notice">
         <h3>Facilitating Adoption and Contributors</h3>
         <hr/>
             <h4>Adoption</h4>
@@ -15,6 +15,6 @@ export default function SkillsBased() {
                 <kbd>something_file.md</kbd></a> to your project root directory
             as explained in the introductory video. This file will outline how individual contributors
             as well as groups of skills based volunteers can contribute to your DPG.</p>
-      </p>
+      </div>
     )
   }

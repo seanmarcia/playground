@@ -1,10 +1,18 @@
 import SDGTABLE from "./SDGTABLE";
 import {CopyBlock, github} from "react-code-blocks";
 
-export default function SdgList({organization, repo, selectedSdg}) {
+export default function SdgList({organization, repository, stage, selectedSdg}) {
+  const repopath = new URL(repository.url).pathname
+
+  const nomineeUrl = "https://raw.githubusercontent.com/seanmarcia/demorepo/main/UN%20DPG%20Badge%20Nominee.png"
+
+  const acceptedUrl = "https://user-images.githubusercontent.com/667909/181150972-e59a77ab-b657-4893-aef9-d3df1384a506.png\" alt=\"DPG Approved"
+
+  const visibleUrl = stage === "DPG" ? acceptedUrl : nomineeUrl
+
   const initialRows = ['<p align="center">',
     '<a href="https://digitalpublicgoods.net">',
-    '<img src="https://user-images.githubusercontent.com/667909/181150972-e59a77ab-b657-4893-aef9-d3df1384a506.png" alt="DPG Approved" height="40">',
+    `<img src="${visibleUrl}" height="40">`,
     '</a>',
     '</p>',
     '',
@@ -22,22 +30,22 @@ export default function SdgList({organization, repo, selectedSdg}) {
     '',
     '<p align="center">',
      '<h2 align="center">GitHub Stats at a Glance</h2>',
-    `<a href="https://github.com/${organization}/${repo}/graphs/contributors" alt="Contributors"> <img src="https://img.shields.io/github/contributors/${organization}/${repo}?logo=github" /></a>`,
-    `<a href="https://github.com/${organization}/${repo}/issues" alt="Contributors"> <img src="https://img.shields.io/github/issues-closed/${organization}/${repo}?logo=github" /></a>`,
-    `<a href="https://github.com/${organization}/${repo}/pulse" alt="Vulnerabilities"><img src="https://img.shields.io/snyk/vulnerabilities/github/${organization}/human-essentials?logo=github" /></a>`,
-    `<a href="https://github.com/${organization}/${repo}/search" alt="Languages"><img src="https://img.shields.io/github/languages/count/${organization}/${repo}?logo=github" /></a>`,
-    `<a href="https://github.com/${organization}/${repo}/search" alt="Languages"><img src="https://img.shields.io/github/languages/top/${organization}/${repo}?logo=github" /></a>`,
-    `<a href="https://github.com/${organization}/${repo}" alt="Size"><img src="https://img.shields.io/github/repo-size/${organization}/${repo}?logo=github" /></a>`,
-    `<a href="https://github.com/${organization}/${repo}/pulls" alt="Pull Requests"><img src="https://img.shields.io/github/issues-pr-closed-raw/${organization}/${repo}?logo=github" /></a>`,
-    `<a href="https://github.com/${organization}/${repo}" alt="LICENSE"><img src="https://badgen.net/github/license/${organization}/${repo}?icon=github&color=green" /></a>`,
-    `<a href="https://github.com/badges/shields/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/${organization}/${repo}?logo=github" /></a>`,
-    `<a href="https://github.com/${organization}/${repo}/commits/main" alt="Last Commit"><img src="https://img.shields.io/github/last-commit/${organization}/${repo}?logo=github" /></a>`,
-    `<a href="https://github.com/${organization}/${repo}/commits/main" alt="Total Commits"><img src="https://badgen.net/github/commits/${organization}/${repo}/main?icon=github&color=green" /></a>`,
+    `<a href="https://github.com${repopath}/graphs/contributors" alt="Contributors"> <img src="https://img.shields.io/github/contributors${repopath}?logo=github" /></a>`,
+    `<a href="https://github.com${repopath}/issues" alt="Contributors"> <img src="https://img.shields.io/github/issues-closed${repopath}?logo=github" /></a>`,
+    `<a href="https://github.com${repopath}/pulse" alt="Vulnerabilities"><img src="https://img.shields.io/snyk/vulnerabilities/github/${organization}/human-essentials?logo=github" /></a>`,
+    `<a href="https://github.com${repopath}/search" alt="Languages"><img src="https://img.shields.io/github/languages/count${repopath}?logo=github" /></a>`,
+    `<a href="https://github.com${repopath}/search" alt="Languages"><img src="https://img.shields.io/github/languages/top${repopath}?logo=github" /></a>`,
+    `<a href="https://github.com${repopath}/ alt="Size"><img src="https://img.shields.io/github/repo-size${repopath}?logo=github" /></a>`,
+    `<a href="https://github.com${repopath}/pulls" alt="Pull Requests"><img src="https://img.shields.io/github/issues-pr-closed-raw${repopath}?logo=github" /></a>`,
+    `<a href="https://github.com${repopath}/ alt="LICENSE"><img src="https://badgen.net/github/license${repopath}?icon=github&color=green" /></a>`,
+    `<a href="https://github.com/badges/shields/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m${repopath}?logo=github" /></a>`,
+    `<a href="https://github.com${repopath}/commits/main" alt="Last Commit"><img src="https://img.shields.io/github/last-commit${repopath}?logo=github" /></a>`,
+    `<a href="https://github.com${repopath}/commits/main" alt="Total Commits"><img src="https://badgen.net/github/commits${repopath}/main?icon=github&color=green" /></a>`,
     '</p>',
     '<p align="center">',
-    `<a href="https://github.com/${organization}/${repo}" alt="Stars"><img src="https://img.shields.io/github/stars/${organization}/${repo}?style=social" /></a>`,
-    `<a href="https://github.com/${organization}/${repo}" alt="Forks"><img src="https://img.shields.io/github/forks/${organization}/${repo}?style=social" /></a>`,
-    `<a href="https://github.com/${organization}/${repo}" alt="Watchers"><img src="https://img.shields.io/github/watchers/${organization}/${repo}?style=social" /></a>`,
+    `<a href="https://github.com${repopath}/ alt="Stars"><img src="https://img.shields.io/github/stars${repopath}?style=social" /></a>`,
+    `<a href="https://github.com${repopath}/ alt="Forks"><img src="https://img.shields.io/github/forks${repopath}?style=social" /></a>`,
+    `<a href="https://github.com${repopath}/ alt="Watchers"><img src="https://img.shields.io/github/watchers${repopath}?style=social" /></a>`,
     '</p>',
     '',
     '---',
