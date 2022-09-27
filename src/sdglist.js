@@ -53,7 +53,7 @@ export default function SdgList({organization, repository, stage, selectedSdg}) 
     '## Use as an Organization or Contribute as an Individual/Team to this Project',
     '',
     '### [NGO Adoption Info](ngo.md)',
-    '### [Contributor Info](contribute.md)',
+    '### [Skills Based Volunteering Info](sbv.md)',
     '',
     '---'
   ];
@@ -69,7 +69,7 @@ export default function SdgList({organization, repository, stage, selectedSdg}) 
 
   let combinedRows = initialRows.concat(rows, endRows);
   return (
-    <div>
+    <div data-theme="test">
       <CopyBlock
         language="markdown"
         text={combinedRows.join('\n')}

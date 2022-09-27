@@ -98,46 +98,45 @@
     "stage": "nominee"
   },
   {
-    "id": "angaza-elimu",
-    "name": "Angaza Elimu",
+    "id": "android-fhir-sdk",
+    "name": "Android FHIR SDK",
     "aliases": [
-      "Angaza AI"
+      ""
     ],
-    "description": "Adaptive assessments for better learning outcomes",
-    "website": "https://angazaelimu.com",
+    "description": "The Android FHIR SDK is a set of Kotlin libraries for building offline-capable, mobile-first healthcare applications using the HL7® FHIR® standard on Android.",
+    "website": "https://github.com/google/android-fhir",
     "license": [
       {
-        "spdx": "GPL-3.0",
-        "licenseURL": "https://github.com/Angaza-Elimu/learning_recommendation/blob/main/LICENSE"
+        "spdx": "Apache-2.0",
+        "licenseURL": "https://github.com/google/android-fhir/blob/master/LICENSE"
       }
     ],
     "SDGs": [
       {
-        "SDGNumber": 4,
-        "evidenceText": "Angaza Elimu exists to ensure that every child has access to quality and relevant education on demand. Our team has developed an interactive eLearning platform powered by artificial intelligence which delivers personalized learning experiences to students and amplifies teacher student engagement. The platform has interactive and adaptive learning modules, giving students access to rich quality digital content and adaptive assessments. We provide teachers with a supportive tool to identify students' specific needs and help deliver personalized/customized instruction. \n Parents also have the option to receive instant notifications about their children's performance and engage with teachers instantaneously  contributing to targeted, constructive, feedback.",
-        "evidenceURL": "https://www.unicef.org/innovation/innovation-fund-angaza-elimu"
+        "SDGNumber": 3,
+        "evidenceText": "Through this toolkit we make it easier for developers to build mobile health applications specifically designed to meet the needs of LMICs. Through our collaboration with the WHO we also enable the deployment of digitised clinical guidelines for improving quality of care",
+        "evidenceURL": "https://www.who.int/teams/digital-health-and-innovation/smart-guidelines/fhir-based-smart-guidelines"
       }
     ],
     "sectors": [
-      "Digital/Data/Tech",
-      "Education"
+      "Health"
     ],
     "type": [
-      "aimodel"
+      "software"
     ],
     "repositories": [
       {
-        "name": "main",
-        "url": "https://github.com/Angaza-Elimu/learning_recommendation"
+        "name": "Android FHIR SDK",
+        "url": "https://github.com/google/android-fhir"
       }
     ],
     "organizations": [
       {
-        "name": "Angaza Elimu",
-        "website": "https://angazaelimu.com",
-        "org_type": "owner",
-        "contact_name": "Shawn Chiama",
-        "contact_email": "shawn.cliff@angazaelimu.com"
+        "name": "Google",
+        "website": "https://www.google.com",
+        "org_type": "maintainer",
+        "contact_name": "Fred Hersch",
+        "contact_email": "fredhersch@google.com"
       }
     ],
     "stage": "nominee"
@@ -227,48 +226,6 @@
         "name": "Jembi Health Systems NPC",
         "website": "https://www.jembi.org/",
         "org_type": "owner"
-      }
-    ],
-    "stage": "nominee"
-  },
-  {
-    "id": "bob-the-ai-career-coach",
-    "name": "Bob, the AI career coach",
-    "aliases": [
-      "Bob"
-    ],
-    "description": "Bob supports jobseekers by helping them create a data-driven plan highlighting their main job search priorities, and coaching them to take action, thereby improving their employment outcomes",
-    "website": "https://uk.hellobob.com/",
-    "license": [
-      {
-        "spdx": "GPL-3.0",
-        "licenseURL": "https://github.com/bayesimpact/bob-emploi/blob/main/LICENSE"
-      }
-    ],
-    "SDGs": [
-      {
-        "SDGNumber": 8,
-        "evidenceText": "Bob supports job seekers in their job search by providing them with key information and resources. It helps them better understand how to conduct their job search and how to move on it proactively. Bob promotes decent work and economic growth as it helps people find sustainable jobs in which they have a higher chance of staying.",
-        "evidenceURL": "https://uk.hellobob.com/"
-      }
-    ],
-    "sectors": [],
-    "type": [
-      "software"
-    ],
-    "repositories": [
-      {
-        "name": "main",
-        "url": "https://github.com/bayesimpact/bob-emploi"
-      }
-    ],
-    "organizations": [
-      {
-        "name": "Bayes Impact",
-        "website": "https://www.bayesimpact.org/",
-        "org_type": "owner",
-        "contact_name": "Benjamin Goullard",
-        "contact_email": "benjamin@bayesimpact.org"
       }
     ],
     "stage": "nominee"
@@ -642,49 +599,6 @@
     "stage": "nominee"
   },
   {
-    "id": "consul-project",
-    "name": "CONSUL Project",
-    "aliases": [
-      "Consul",
-      "Consul Democracy"
-    ],
-    "description": "Free Open Source Participation Software for Democracy. Citizen participation and open government web application that helps public officials carry out participatory processes with their citizens. Through an accessible and friendly interface, governments can facilitate direct citizen participation through a number of activities, including citizen proposals, participatory budgets, collaborative legislation, debates and voting.",
-    "website": "https://consulproject.org/en/",
-    "license": [
-      {
-        "spdx": "AGPL-3.0",
-        "licenseURL": "https://github.com/consul/consul/blob/master/LICENSE-AGPLv3.txt"
-      }
-    ],
-    "SDGs": [
-      {
-        "SDGNumber": 16,
-        "evidenceText": "CONSUL is a project that supports governments and institutions to become stronger by involving citizens and stakeholders into decision-making processes. Moreover, it has developed in collaboration with the UNDP a SDG module. ",
-        "evidenceURL": "https://consulproject.org/docs/consul_sdg_module_en.pdf"
-      }
-    ],
-    "sectors": [],
-    "type": [
-      "software"
-    ],
-    "repositories": [
-      {
-        "name": "CONSUL Project",
-        "url": "https://github.com/consul/consul"
-      }
-    ],
-    "organizations": [
-      {
-        "name": "Consul Democracy Foundation",
-        "website": "https://consulfoundation.org/",
-        "org_type": "owner",
-        "contact_name": "Esther Nass",
-        "contact_email": "info@consulfoundation.org"
-      }
-    ],
-    "stage": "nominee"
-  },
-  {
     "id": "deon",
     "name": "Deon",
     "description": "Deon is a command line tool that allows you to easily add an ethics checklist to your data science projects. We support creating a new, standalone checklist file or appending a checklist to an existing analysis in many common formats.",
@@ -1034,50 +948,6 @@
     "stage": "nominee"
   },
   {
-    "id": "gobierto-transparency",
-    "name": "Gobierto Transparency",
-    "aliases": [
-      ""
-    ],
-    "description": "Gobierto is a Rails app that provides a set of tools to power efforts from public administrations towards transparency and citizen engagement, to enable them to communicate better with their constituents and put public open data to work. ",
-    "website": "https://gobierto.es/",
-    "license": [
-      {
-        "spdx": "AGPL-3.0",
-        "licenseURL": "https://github.com/PopulateTools/gobierto/blob/master/LICENSE-AGPLv3.txt"
-      }
-    ],
-    "SDGs": [
-      {
-        "SDGNumber": 11,
-        "evidenceText": "By providing better info about how government works and engaging citizens in public matters",
-        "evidenceURL": "https://populate.tools/blog/gobierto"
-      }
-    ],
-    "sectors": [
-      "Sustainable Cities"
-    ],
-    "type": [
-      "software"
-    ],
-    "repositories": [
-      {
-        "name": "Frontend & backend",
-        "url": "https://github.com/PopulateTools/gobierto"
-      }
-    ],
-    "organizations": [
-      {
-        "name": "Populate",
-        "website": "https://populate.tools",
-        "org_type": "owner",
-        "contact_name": "Alvaro Ortiz",
-        "contact_email": "alvaro@populate.tools"
-      }
-    ],
-    "stage": "nominee"
-  },
-  {
     "id": "growstuff",
     "name": "Growstuff",
     "aliases": [
@@ -1117,60 +987,6 @@
         "org_type": "maintainer",
         "contact_name": "Brenda Wallace",
         "contact_email": "info@growstuff.org"
-      }
-    ],
-    "stage": "nominee"
-  },
-  {
-    "id": "hive",
-    "name": "Hive",
-    "description": "Drone Monitoring and Management System to manage, control and monitor the network of drones",
-    "website": "https://dms.prokurainnovations.com",
-    "license": [
-      {
-        "spdx": "MIT",
-        "licenseURL": "https://github.com/prokuranepal/DMS_React/blob/master/LICENSE"
-      }
-    ],
-    "SDGs": [
-      {
-        "SDGNumber": 3,
-        "evidenceText": "A first step in the use our medical drones is likely to be deliveries between hospitals. The treatment of patients often requires the transfer of test samples or the delivery of medical supplies that may not be in stock everywhere. Such transfers could also take place between small regional hospitals with limited supplies and large health centers. The rapid transfer of samples to labs that are equipped to perform the required tests and the return of corresponding medication could save lives.",
-        "evidenceURL": "https://www.prokurainnovations.com/drone-delivery/"
-      },
-      {
-        "SDGNumber": 8,
-        "evidenceText": "Prokura Innovation is the leading drone logistics and services company in Nepal established in 2017. It is one of the drone startups funded by the Unicef Innovation Fund and works closely with National Innovation Center with an aim to provide last mile delivery of medicines in the hardest to reach places of Nepal.",
-        "evidenceURL": "https://www.prokurainnovations.com/"
-      },
-      {
-        "SDGNumber": 9,
-        "evidenceText": "Delivery drones are operated autonomously or remotely, with operators potentially overseeing multiple drones at once. In several examples across the world, drones are being used for delivering time-sensitive items, such as medicine, or deliveries that would be difficult with traditional vehicle-based services.",
-        "evidenceURL": "https://www.prokurainnovations.com/drone-delivery/"
-      }
-    ],
-    "sectors": [
-      "Digital/Data/Tech"
-    ],
-    "type": [
-      "software"
-    ],
-    "repositories": [
-      {
-        "name": "main",
-        "url": "https://github.com/prokuranepal/DMS_React"
-      }
-    ],
-    "organizations": [
-      {
-        "name": "Prokura Innovations",
-        "website": "https://www.prokurainnovations.com/",
-        "org_type": "owner"
-      },
-      {
-        "name": "UNICEF Innovation Fund",
-        "website": "https://www.unicefinnovationfund.org/home",
-        "org_type": "funder"
       }
     ],
     "stage": "nominee"
@@ -1236,6 +1052,58 @@
         "org_type": "owner",
         "contact_name": "Kartik Sawhney",
         "contact_email": "kartik@inclusivestem.org"
+      }
+    ],
+    "stage": "nominee"
+  },
+  {
+    "id": "iaso",
+    "name": "Iaso",
+    "aliases": [
+      ""
+    ],
+    "description": "Platform for data collection, georegistry, activity planning and monitoring.",
+    "website": "https://github.com/BLSQ/iaso",
+    "license": [
+      {
+        "spdx": "MIT",
+        "licenseURL": "https://github.com/BLSQ/iaso/blob/main/LICENSE"
+      }
+    ],
+    "SDGs": [
+      {
+        "SDGNumber": 2,
+        "evidenceText": "Iaso has been selected as the next software platform to support the World Food Programme track its CODA scheme",
+        "evidenceURL": "https://innovation.wfp.org/project/scope-coda"
+      },
+      {
+        "SDGNumber": 3,
+        "evidenceText": "Iaso is used to produce health maps, to build a Polio outbreaks tracking platform and also to collect data in the context of Performance Based Financing",
+        "evidenceURL": "https://www.bluesquarehub.com/iaso/"
+      },
+      {
+        "SDGNumber": 4,
+        "evidenceText": "Iaso has been used to improve the quality of information about schools in DRC",
+        "evidenceURL": "https://www.cordaid.org/en/news/better-data-better-schools-better-education/"
+      }
+    ],
+    "sectors": [],
+    "type": [
+      "software"
+    ],
+    "repositories": [
+      {
+        "name": "Iaso ",
+        "url": "https://github.com/BLSQ/iaso"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Bluesquare",
+        "website": "https://www.bluesquarehub.com/",
+        "org_type": "owner",
+        "contact_name": "Martin De Wulf",
+        "contact_email": "mdewulf@bluesquarehub.com"
       }
     ],
     "stage": "nominee"
@@ -1329,59 +1197,6 @@
     "stage": "nominee"
   },
   {
-    "id": "jellow-aac-communicator",
-    "name": "Jellow AAC Communicator",
-    "aliases": [
-      "Jellow Basic"
-    ],
-    "description": "Jellow Basic Communicator is a freely downloadable friendly Augmentative and Alternative Communication (AAC) system that uses icons/images to enable aid communication in people learning to speak or with difficulty with speech and language.",
-    "website": "https://jellow.org/jellow-basic.php",
-    "license": [
-      {
-        "spdx": "BSD-3-Clause",
-        "licenseURL": "https://github.com/jellow-aac/jellow-communicator-android/blob/master/LICENSE.txt"
-      },
-      {
-        "spdx": "CC-BY-NC-SA-4.0",
-        "licenseURL": "https://github.com/jellow-aac/jellow-communicator-android"
-      }
-    ],
-    "SDGs": [
-      {
-        "SDGNumber": 4,
-        "evidenceURL": "https://www.unicefinnovationfund.org/broadcast/updates/graduate-ninaad-jellow-communicator-friendly-augmentative-and-alternative"
-      }
-    ],
-    "sectors": [
-      "Education"
-    ],
-    "type": [
-      "software",
-      "content"
-    ],
-    "repositories": [
-      {
-        "name": "main",
-        "url": "https://github.com/jellow-aac/jellow-communicator-android"
-      }
-    ],
-    "organizations": [
-      {
-        "name": "NINAAD Digital Technology Private Limited",
-        "website": "https://jellow.org/",
-        "org_type": "owner",
-        "contact_name": "Vidya Upadhya",
-        "contact_email": "jellowcommunicator@gmail.com"
-      },
-      {
-        "name": "UNICEF Ventures Fund",
-        "website": "https://unicefinnovationfund.org/",
-        "org_type": "funder"
-      }
-    ],
-    "stage": "nominee"
-  },
-  {
     "id": "juniper",
     "name": "Juniper",
     "description": "Juniper is a set of tools built with and for public sector organisations looking to receive, hold and send crypto-denominated assets.",
@@ -1460,53 +1275,6 @@
         "org_type": "maintainer",
         "contact_name": "Matthias Obst",
         "contact_email": "matthias.obst@marine.gu.se"
-      }
-    ],
-    "stage": "nominee"
-  },
-  {
-    "id": "kotani-pay",
-    "name": "Kotani Pay",
-    "aliases": [
-      "KP"
-    ],
-    "description": "A technology stack that connects blockchain protocols, dApps, and blockchain fintechs to local payment channels in Africa",
-    "website": "https://kotanipay.com",
-    "license": [
-      {
-        "spdx": "MIT",
-        "licenseURL": "https://github.com/Kotani-Pay/Kotani-Pay-API/blob/main/LICENSE.txt"
-      }
-    ],
-    "SDGs": [
-      {
-        "SDGNumber": 1,
-        "evidenceText": "Kotani Pay  enables the underprivileged such as refugees to receive Universal Basic Income Payments of at least $1 a day in collaboration with other humanitarian organizations ",
-        "evidenceURL": "https://basicincome.org/news/2021/09/the-long-march-to-basic-income-begins-with-a-single-step-the-unusual-story-of-kowiti-a/"
-      },
-      {
-        "SDGNumber": 10,
-        "evidenceText": "Kotani Pay improves financial inclusion by offering youth to perform microtasks and microwork and to earn from their work",
-        "evidenceURL": "https://techcrunch.com/2022/02/23/cryptocurrency-payments-key-to-lowering-cross-border-remittance-charges-and-boosting-microwork-uptake-in-africa-study-shows/"
-      }
-    ],
-    "sectors": [],
-    "type": [
-      "software"
-    ],
-    "repositories": [
-      {
-        "name": "Kotani Pay API",
-        "url": "https://github.com/Kotani-Pay/Kotani-Pay-API"
-      }
-    ],
-    "organizations": [
-      {
-        "name": "Kotani Pay",
-        "website": "https://kotanipay.com",
-        "org_type": "owner",
-        "contact_name": "Keith Mandela",
-        "contact_email": "keith@kotanipay.com"
       }
     ],
     "stage": "nominee"
@@ -1875,47 +1643,6 @@
     "stage": "nominee"
   },
   {
-    "id": "open-contracting-portal",
-    "name": "Open Contracting Portal",
-    "aliases": [
-      "ocportal OCE ocexplorer"
-    ],
-    "description": "The Open Contracting Portal (OC Portal) is an open-source platform built to organize and archive procurement documents, improve data transparency and feedback by the public, and to help publish procurement information in the Open Contracting Data Standard (OCDS)",
-    "website": "https://devgateway.github.io/ocportal/",
-    "license": [
-      {
-        "spdx": "MIT",
-        "licenseURL": "https://github.com/devgateway/ocportal/blob/develop/LICENSE"
-      }
-    ],
-    "SDGs": [
-      {
-        "SDGNumber": 16,
-        "evidenceText": "The Open Contracting Portal (OC Portal) aligns with SDG 16's specific target of ‘develop[ing] effective, accountable and transparent institutions at all levels’ by making public procurement more transparent; helping governments to benefit from digitizing procurement data and producing procurement analytics designed to address their objectives to improve procurement efficiency, increase value for money, and reduce corruption risk."
-      }
-    ],
-    "sectors": [],
-    "type": [
-      "software"
-    ],
-    "repositories": [
-      {
-        "name": "ocportal",
-        "url": "https://github.com/devgateway/ocportal"
-      }
-    ],
-    "organizations": [
-      {
-        "name": "Development Gateway, Inc",
-        "website": "https://developmentgateway.org",
-        "org_type": "owner",
-        "contact_name": "Fernando Ferreyra",
-        "contact_email": "fferreyra@developmentgateway.org"
-      }
-    ],
-    "stage": "nominee"
-  },
-  {
     "id": "open-foris-collect-mobile",
     "name": "Open Foris Collect Mobile",
     "description": "Open Foris Collect Mobile is a fast, intuitive and flexible data collection tool for field-based surveys. This Android app allows the completion of complex data structures, such as biophysical, socio-economic or biodiversity surveys.",
@@ -2134,65 +1861,23 @@
     "stage": "nominee"
   },
   {
-    "id": "open-terms-archive",
-    "name": "Open Terms Archive",
-    "aliases": [
-      ""
-    ],
-    "description": "Open Terms Archive tracks and makes visible changes to the Terms Of Service of the main online services.",
-    "website": "https://opentermsarchive.org/",
-    "license": [
-      {
-        "spdx": "ODC-By-1.0",
-        "licenseURL": "https://github.com/ambanum/OpenTermsArchive-snapshots/blob/master/LICENSE"
-      }
-    ],
-    "SDGs": [
-      {
-        "SDGNumber": 16,
-        "evidenceText": "Open Terms Archive helps regulatory bodies assess the loyalty of 204 digital platforms and online services. It creates transparency in the practices of digital players, in line with the first recommendations discussed within the framework of the DSA and the DMA. And then makes institutions stronger when it comes to regulating digital platforms.",
-        "evidenceURL": "https://www.nextinpact.com/lebrief/46055/open-terms-archive-pour-suivre-evolutions-conditions-generales-dutilisation"
-      }
-    ],
-    "sectors": [],
-    "type": [
-      "data"
-    ],
-    "repositories": [
-      {
-        "name": "main",
-        "url": ""
-      }
-    ],
-    "organizations": [
-      {
-        "name": "Ambassador for digital affairs (FR)",
-        "website": "https://disinfo.quaidorsay.fr/fr/nos-outils",
-        "org_type": "owner",
-        "contact_name": "Clément Biron",
-        "contact_email": "clement.biron@beta.gouv.fr"
-      }
-    ],
-    "stage": "nominee"
-  },
-  {
     "id": "openboxes",
     "name": "OpenBoxes",
     "aliases": [
-      ""
+      "OB"
     ],
-    "description": "OpenBoxes is an open-source logistics management information system (LMIS) designed to serve the supply-chain management demands of public health systems. ",
-    "website": "https://www.openboxes.com",
+    "description": "OpenBoxes is an open-source logistics management information system (LMIS) designed to serve the supply-chain management demands of public health systems. It's an open source LMIS system designed for health systems in developing countries",
+    "website": "http://www.openboxes.com",
     "license": [
       {
         "spdx": "EPL-1.0",
-        "licenseURL": "https://github.com/openboxes/openboxes/blob/develop/epl-v10.html"
+        "licenseURL": "https://github.com/openboxes/openboxes/blob/develop/LICENSE.md"
       }
     ],
     "SDGs": [
       {
         "SDGNumber": 3,
-        "evidenceText": "OpenBoxes provides health organizations with a free logistics management solutions designed for use in developing countries.",
+        "evidenceText": "OpenBoxes provides health organizations with a free logistics management solutions designed for use in developing countries. The digital solution is designed specifically to support logistics at low-resource health facilities",
         "evidenceURL": "https://www.pih.org/article/need-know-openboxes-and-supply-chain"
       }
     ],
@@ -2204,17 +1889,61 @@
     ],
     "repositories": [
       {
-        "name": "main",
+        "name": "OpenBoxes",
         "url": "https://github.com/openboxes/openboxes"
       }
     ],
     "organizations": [
       {
-        "name": "Partner in Health",
-        "website": "https://www.pih.org",
+        "name": "Partners in Health",
+        "website": "https://www.pih.org/",
         "org_type": "maintainer",
         "contact_name": "Kelsey Nagel",
         "contact_email": "knagel@pih.org"
+      }
+    ],
+    "stage": "nominee"
+  },
+  {
+    "id": "opencr",
+    "name": "OpenCR",
+    "aliases": [
+      "Open Client Registry "
+    ],
+    "description": "Open Client Registry (OpenCR) is an open source and standards-based client registry. Client registries use sophisticated record linkage processes to uniquely identify patients across multiple health information systems in facilities, pharmacies, lab systems, and elsewhere. As a critical component of an interoperable health information exchange (HIE), it allows patients to be tracked across facilities and decreases instances of duplicate and incomplete records, as well as interruptions in treatment. It is a necessary tool in public health to help manage patient safety and care coordination, monitoring, reporting, surveillance, and medical research.",
+    "website": "https://www.openclientregistry.org/",
+    "license": [
+      {
+        "spdx": "MIT",
+        "licenseURL": "https://github.com/intrahealth/client-registry/blob/master/LICENSE"
+      }
+    ],
+    "SDGs": [
+      {
+        "SDGNumber": 3,
+        "evidenceText": "OpenCR addresses the problem of patient data spread across different systems which are unlinked and duplicated. This makes it difficult to use clinical data for care coordination, reporting, monitoring, surveillance, and research. OpenCR uses sophisticated matching methods using demographic identifiers to identify and link patients across systems.",
+        "evidenceURL": "https://www.openclientregistry.org/"
+      }
+    ],
+    "sectors": [
+      "Health"
+    ],
+    "type": [
+      "software"
+    ],
+    "repositories": [
+      {
+        "name": "main",
+        "url": "https://github.com/intrahealth/client-registry"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "IntraHealth International",
+        "website": "https://www.intrahealth.org/",
+        "org_type": "owner",
+        "contact_name": "Margarite Nathe",
+        "contact_email": "intrahealth@intrahealth.org"
       }
     ],
     "stage": "nominee"
@@ -2335,6 +2064,64 @@
         "org_type": "maintainer",
         "contact_name": "Matti Schneider",
         "contact_email": "matti.schneider@beta.gouv.fr"
+      }
+    ],
+    "stage": "nominee"
+  },
+  {
+    "id": "openhexa",
+    "name": "OpenHexa",
+    "aliases": [
+      ""
+    ],
+    "description": "An open-source data integration platform for public health projects.",
+    "website": "https://www.bluesquarehub.com/openhexa/",
+    "license": [
+      {
+        "spdx": "MIT",
+        "licenseURL": "https://github.com/BLSQ/openhexa/blob/main/LICENSE"
+      }
+    ],
+    "SDGs": [
+      {
+        "SDGNumber": 3,
+        "evidenceText": "Our data integration platform is focused on public health and has been designed to help data scientists and data analysts integrate and analyze a wide range of health data. Its goal is to strengthen public health programmes, such as improving Improving national surveillance systems for infectious diseases.",
+        "evidenceURL": "https://www.bluesquarehub.com/blog/openhexa-bluesquares-new-data-integration-platform/"
+      }
+    ],
+    "sectors": [],
+    "type": [
+      "software"
+    ],
+    "repositories": [
+      {
+        "name": "Starting point / doc & roadmap",
+        "url": "https://github.com/BLSQ/openhexa"
+      },
+      {
+        "name": "Backend",
+        "url": "https://github.com/BLSQ/openhexa-app"
+      },
+      {
+        "name": "Frontend",
+        "url": "https://github.com/BLSQ/openhexa-frontend"
+      },
+      {
+        "name": "Notebooks component",
+        "url": "https://github.com/BLSQ/openhexa-notebooks"
+      },
+      {
+        "name": "Data pipelines",
+        "url": "https://github.com/BLSQ/openhexa-pipelines"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Bluesquare SA",
+        "website": "https://bluesquarehub.com/",
+        "org_type": "owner",
+        "contact_name": "Nicolas De Borman",
+        "contact_email": "ndeborman@bluesquarehub.com"
       }
     ],
     "stage": "nominee"
@@ -3884,48 +3671,6 @@
     "stage": "nominee"
   },
   {
-    "id": "the-open-source-spatial-electrification-tool",
-    "name": "The Open Source Spatial Electrification Tool",
-    "aliases": [
-      "OnSSET"
-    ],
-    "description": "OnSSET is an open source, GIS-based tool for developing electrification investment scenarios towards achieving universal access to electricity in accordance with SDG7.",
-    "website": "http://www.onsset.org/",
-    "license": [
-      {
-        "spdx": "MIT",
-        "licenseURL": "https://github.com/OnSSET/onsset/blob/master/LICENSE"
-      }
-    ],
-    "SDGs": [
-      {
-        "SDGNumber": 7,
-        "evidenceText": "OnSSET focuses on SDG7, particularly target 7.1 which is to \"ensure universal access to affordable, reliable and modern energy services\". The tool identifies the least-cost technology (grid-extension, mini-grid or stand-alone technologies) to meet the electricity demand in each settlement in a country or region.",
-        "evidenceURL": "https://www.energy.kth.se/energy-systems/completed-projects/open-source-spatial-electrification-toolkit-onsset-1.940024"
-      }
-    ],
-    "sectors": [],
-    "type": [
-      "software"
-    ],
-    "repositories": [
-      {
-        "name": "main",
-        "url": "https://github.com/OnSSET/onsset"
-      }
-    ],
-    "organizations": [
-      {
-        "name": "KTH Royal Institute of Technology - division of Energy Systems",
-        "website": "https://www.energy.kth.se/energy-systems/about-the-division-of-energy-systems-1.937036",
-        "org_type": "maintainer",
-        "contact_name": "Andreas Sahlberg",
-        "contact_email": "asahl@kth.se"
-      }
-    ],
-    "stage": "nominee"
-  },
-  {
     "id": "the-tor-project",
     "name": "The Tor Project",
     "aliases": [
@@ -4178,99 +3923,44 @@
     "stage": "nominee"
   },
   {
-    "id": "victimsofintolerance",
-    "name": "VictimsOfIntolerance",
+    "id": "vxnaid",
+    "name": "Vxnaid",
     "aliases": [
-      "Vítimas da Intolerância",
-      "VítimasDaIntolerância"
+      "Vaccination Monitoring Platform"
     ],
-    "description": "Hate crimes monitor for political motivated assaults in Brazil.",
-    "website": "https://www.vitimasdaintolerancia.org",
+    "description": "Vxnaid is a digital platform that supports correct vaccine administration & efficient vaccination campaigns. Enable broad adoption of Vxnaid especially in RLS countries to ensure correct administration of vaccines, identification of vaccinees, follow-up/recall of vaccinated persons and understanding of vaccination campaign effectiveness.",
+    "website": "https://jjcloud.box.com/shared/static/he8cey6hbxub0jc43u1dlb64u5m6o5hz.pdf",
     "license": [
       {
-        "spdx": "AGPL-3.0",
-        "licenseURL": "https://github.com/okfn-brasil/vitimas-da-intolerancia/blob/main/LICENSE"
+        "spdx": "Apache-2.0",
+        "licenseURL": "https://github.com/johnsonandjohnson/vxnaid/blob/main/LICENSE"
       }
     ],
     "SDGs": [
       {
-        "SDGNumber": 10,
-        "evidenceText": "This project is an effort to reunite reported cases of victims of political violence, motivated by political intolerance. There is a crescent number of attacks being reported in the electoral context,  so mapping this cases is a form to show the advance of intolerance in the country.",
-        "evidenceURL": "https://www.vitimasdaintolerancia.org/about.html"
-      },
-      {
-        "SDGNumber": 16,
-        "evidenceText": "This project is an effort to reunite reported cases of victims of political violence, motivated by political intolerance. There is a crescent number of attacks being reported in the electoral context,  so mapping this cases is a form to show the advance of intolerance in the country.",
-        "evidenceURL": "https://www.vitimasdaintolerancia.org/about.html"
+        "SDGNumber": 3,
+        "evidenceText": "This project is selected by J&J as part of their contribution to the Health for Humanity SDGs for 2025. It enables more effective vaccine administration and monitoring of vaccination campaign efficiency."
       }
     ],
-    "sectors": [],
+    "sectors": [
+      "Health"
+    ],
     "type": [
       "software"
     ],
     "repositories": [
       {
         "name": "main",
-        "url": "https://github.com/okfn-brasil/vitimas-da-intolerancia"
+        "url": "https://github.com/johnsonandjohnson/vxnaid"
       }
     ],
     "organizations": [
       {
-        "name": "Open Knowledge Brasil",
-        "website": "https://ok.org.br",
-        "org_type": "maintainer",
-        "contact_name": "Open Knowledge Brasil",
-        "contact_email": "contato@ok.org.br"
-      }
-    ],
-    "stage": "nominee"
-  },
-  {
-    "id": "vr-for-schools",
-    "name": "VR for Schools",
-    "aliases": [
-      "VR4Schools",
-      "LeVRn"
-    ],
-    "description": "Educational virtual reality content for the Nigerian junior secondary school curriculum.",
-    "website": "http://vr4schools.org/",
-    "license": [
-      {
-        "spdx": "GPL-3.0",
-        "licenseURL": "https://github.com/Imisi3D/leVRn-beta/blob/master/LICENSE"
-      }
-    ],
-    "SDGs": [
-      {
-        "SDGNumber": 4,
-        "evidenceURL": "https://medium.com/imisi3d/virtual-reality-for-education-in-nigeria-fecb01e0cefe"
-      }
-    ],
-    "sectors": [],
-    "type": [
-      "software"
-    ],
-    "repositories": [
-      {
-        "name": "LeVRn Potential and Kinetic Energy",
-        "url": "https://github.com/Imisi3D/LeVRnPotentialAndKineticEnergy"
-      },
-      {
-        "name": "LeVRn Algebra",
-        "url": "https://github.com/Imisi3D/leVRnAlgebra"
-      },
-      {
-        "name": "LeVRn Non-communicable diseases",
-        "url": "https://github.com/Imisi3D/LeVRn_Non_Communicable_Diseases"
-      }
-    ],
-    "organizations": [
-      {
-        "name": "Imìsí 3D ",
-        "website": "https://imisi3d.com/",
+        "name": "Johnson & Johnson Global Public Health",
+        "website": "https://www.jnj.com",
         "org_type": "owner",
-        "contact_name": "Judith Okonkwo ",
-        "contact_email": "Judith@imisi3d.com"
+        "contact_name": "Paula Mc Kenna",
+        "contact_email": "pmckenna@its.jnj.com"
       }
     ],
     "stage": "nominee"

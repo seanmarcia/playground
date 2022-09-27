@@ -2503,6 +2503,48 @@
     "stage": "DPG"
   },
   {
+    "id": "govdirectory",
+    "name": "Govdirectory",
+    "aliases": [
+      "WikiProject Govdirectory"
+    ],
+    "description": "A crowdsourced and fact-checked directory of official governmental online accounts and services. The easiest way to contact your government.",
+    "website": "https://govdirectory.org",
+    "license": [
+      {
+        "spdx": "CC0-1.0",
+        "licenseURL": "https://github.com/govdirectory/website/blob/main/LICENSE"
+      }
+    ],
+    "SDGs": [
+      {
+        "SDGNumber": 16,
+        "evidenceText": "Our vision is \"Our vision is a world where people are empowered to engage with their government to ensure responsive, inclusive, participatory and representative decision-making at all levels.\"  and our mission is \"We will enable a community powered directory where the online presence of every public organization is easily findable, queryable and trustworthy.\". Together, they are directly related to target 16.7 and 16.8.",
+        "evidenceURL": "https://www.govdirectory.org/about/"
+      }
+    ],
+    "sectors": [],
+    "type": [
+      "data"
+    ],
+    "repositories": [
+      {
+        "name": "Topics",
+        "url": "https://www.govdirectory.org/topics/"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Govdirectory",
+        "website": "https://github.com/govdirectory",
+        "org_type": "maintainer",
+        "contact_name": "Jan Ainali",
+        "contact_email": "ainali.jan@gmail.com"
+      }
+    ],
+    "stage": "DPG"
+  },
+  {
     "id": "h5p",
     "name": "H5P",
     "description": "H5P makes it easy to create, share and reuse HTML5 content and applications. H5P empowers everyone to create rich and interactive web experiences more efficiently - all you need is a web browser and a web site with an H5P plugin.",
@@ -2940,6 +2982,59 @@
     "stage": "DPG"
   },
   {
+    "id": "jellow-aac-communicator",
+    "name": "Jellow AAC Communicator",
+    "aliases": [
+      "Jellow Basic"
+    ],
+    "description": "Jellow Basic Communicator is a freely downloadable friendly Augmentative and Alternative Communication (AAC) system that uses icons/images to enable aid communication in people learning to speak or with difficulty with speech and language.",
+    "website": "https://jellow.org/jellow-basic.php",
+    "license": [
+      {
+        "spdx": "BSD-3-Clause",
+        "licenseURL": "https://github.com/jellow-aac/jellow-communicator-android/blob/master/LICENSE.txt"
+      },
+      {
+        "spdx": "CC-BY-NC-SA-4.0",
+        "licenseURL": "https://github.com/jellow-aac/jellow-communicator-android"
+      }
+    ],
+    "SDGs": [
+      {
+        "SDGNumber": 4,
+        "evidenceURL": "https://www.unicefinnovationfund.org/broadcast/updates/graduate-ninaad-jellow-communicator-friendly-augmentative-and-alternative"
+      }
+    ],
+    "sectors": [
+      "Education"
+    ],
+    "type": [
+      "software",
+      "content"
+    ],
+    "repositories": [
+      {
+        "name": "main",
+        "url": "https://github.com/jellow-aac/jellow-communicator-android"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "NINAAD Digital Technology Private Limited",
+        "website": "https://jellow.org/",
+        "org_type": "owner",
+        "contact_name": "Vidya Upadhya",
+        "contact_email": "jellowcommunicator@gmail.com"
+      },
+      {
+        "name": "UNICEF Ventures Fund",
+        "website": "https://unicefinnovationfund.org/",
+        "org_type": "funder"
+      }
+    ],
+    "stage": "DPG"
+  },
+  {
     "id": "kindly",
     "name": "Kindly",
     "aliases": [
@@ -3156,6 +3251,53 @@
         "org_type": "owner",
         "contact_name": "Richard Tibbles",
         "contact_email": "richard@learningequality.org"
+      }
+    ],
+    "stage": "DPG"
+  },
+  {
+    "id": "kotani-pay",
+    "name": "Kotani Pay",
+    "aliases": [
+      ""
+    ],
+    "description": "Kotani Pay is a stablecoin to fiat off-ramp and off-ramp service. The service is offered as an end to end API (Application Programming Interface) to enable other businesses to integrate and also as a USSD (Unstructured Supplementary Service Data) application for end-users to convert stablecoins to local fiat. A technology stack that connects blockchain protocols, dApps, and blockchain fintechs to local payment channels in Africa",
+    "website": "https://kotanipay.com",
+    "license": [
+      {
+        "spdx": "MIT",
+        "licenseURL": "https://github.com/kotanipay/Kotani-Pay-API/blob/main/LICENSE"
+      }
+    ],
+    "SDGs": [
+      {
+        "SDGNumber": 1,
+        "evidenceText": "Kotani Pay  enables the underprivileged such as refugees to receive Universal Basic Income Payments of at least $1 a day in collaboration with other humanitarian organizations ",
+        "evidenceURL": "https://basicincome.org/news/2021/09/the-long-march-to-basic-income-begins-with-a-single-step-the-unusual-story-of-kowiti-a/"
+      },
+      {
+        "SDGNumber": 10,
+        "evidenceText": "Kotani Pay improves financial inclusion by offering youth to perform microtasks and microwork and to earn from their work",
+        "evidenceURL": "https://techcrunch.com/2022/02/23/cryptocurrency-payments-key-to-lowering-cross-border-remittance-charges-and-boosting-microwork-uptake-in-africa-study-shows/"
+      }
+    ],
+    "sectors": [],
+    "type": [
+      "software"
+    ],
+    "repositories": [
+      {
+        "name": "Kotani Pay API",
+        "url": "https://github.com/kotanipay/Kotani-Pay-API"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Kotani Pay",
+        "website": "https://kotanipay.com",
+        "org_type": "owner",
+        "contact_name": "Keith Mandela",
+        "contact_email": "keith@kotanipay.com"
       }
     ],
     "stage": "DPG"
@@ -4060,6 +4202,47 @@
     "stage": "DPG"
   },
   {
+    "id": "open-contracting-portal",
+    "name": "Open Contracting Portal",
+    "aliases": [
+      "ocportal OCE ocexplorer"
+    ],
+    "description": "The Open Contracting Portal (OC Portal) is an open-source platform built to organize and archive procurement documents, improve data transparency and feedback by the public, and to help publish procurement information in the Open Contracting Data Standard (OCDS)",
+    "website": "https://devgateway.github.io/ocportal/",
+    "license": [
+      {
+        "spdx": "MIT",
+        "licenseURL": "https://github.com/devgateway/ocportal/blob/develop/LICENSE"
+      }
+    ],
+    "SDGs": [
+      {
+        "SDGNumber": 16,
+        "evidenceText": "The Open Contracting Portal (OC Portal) aligns with SDG 16's specific target of ‘develop[ing] effective, accountable and transparent institutions at all levels’ by making public procurement more transparent; helping governments to benefit from digitizing procurement data and producing procurement analytics designed to address their objectives to improve procurement efficiency, increase value for money, and reduce corruption risk."
+      }
+    ],
+    "sectors": [],
+    "type": [
+      "software"
+    ],
+    "repositories": [
+      {
+        "name": "main",
+        "url": "https://github.com/devgateway/ocportal"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Development Gateway, Inc",
+        "website": "https://developmentgateway.org",
+        "org_type": "owner",
+        "contact_name": "Fernando Ferreyra",
+        "contact_email": "fferreyra@developmentgateway.org"
+      }
+    ],
+    "stage": "DPG"
+  },
+  {
     "id": "open-drone-suite",
     "name": "Open Drone Suite",
     "description": "This project develops and maintains aerial platforms capable of heavy payload delivery for roles including aerial seed bombing for re-forestation, desert locust management including fumigation, and vaccine heavy payload delivery.",
@@ -4277,6 +4460,49 @@
         "name": "Vital Strategies",
         "website": "https://www.vitalstrategies.org/",
         "org_type": "owner"
+      }
+    ],
+    "stage": "DPG"
+  },
+  {
+    "id": "openelis-global",
+    "name": "OpenELIS Global",
+    "aliases": [
+      ""
+    ],
+    "description": "The OpenELIS Global software is an open enterprise-level laboratory information system built on open-source web-based technologies that has been tailored for low-and-middle income country public health laboratories.",
+    "website": "http://openelis-global.org/",
+    "license": [
+      {
+        "spdx": "MPL-2.0",
+        "licenseURL": "https://github.com/I-TECH-UW/OpenELIS-Global-2/blob/develop/LICENSE.md"
+      }
+    ],
+    "SDGs": [
+      {
+        "SDGNumber": 3,
+        "evidenceText": "By providing accurate, real time lab information to lab staff, clinicians, and MOH decision makers, OpenELIS global supports many aspects of the SDG 3, particularly 3.3 and 3.D. It is being used to control HIV, TB and Covid-19 in Cote d'Ivoire, Haiti and Mauritus as well as being used in all aspects of clinical lab workflows."
+      }
+    ],
+    "sectors": [
+      "Health"
+    ],
+    "type": [
+      "software"
+    ],
+    "repositories": [
+      {
+        "name": "Core Software",
+        "url": "https://github.com/I-TECH-UW/OpenELIS-Global-2"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Digital Initiatives Group at ITECH,  University of Washington",
+        "website": "https://www.go2itech.org/digital-initiatives-group-at-i-tech/about-digi/",
+        "org_type": "maintainer",
+        "contact_name": "Jan Flowers",
+        "contact_email": "digit@uw.edu"
       }
     ],
     "stage": "DPG"
@@ -5953,6 +6179,66 @@
         "org_type": "owner",
         "contact_name": "Deepika Mogilishetty",
         "contact_email": "info@ekstep.org"
+      }
+    ],
+    "stage": "DPG"
+  },
+  {
+    "id": "sunbird-uci",
+    "name": "Sunbird UCI",
+    "aliases": [
+      "UCI"
+    ],
+    "description": "Sunbird UCI (Unified Communications Interface) is an open-source configurable platform to enable multi-channel, personalised chatbot conversations and nudges across various channels such as WhatsApp, Telegram, SMS, email, etc. for governance use cases.",
+    "website": "https://uci.sunbird.org",
+    "license": [
+      {
+        "spdx": "MIT",
+        "licenseURL": "https://github.com/samagra-comms/uci-apis/blob/master/LICENSE"
+      }
+    ],
+    "SDGs": [
+      {
+        "SDGNumber": 4,
+        "evidenceText": "Ministry of Education (MoE), Government of India's DIKSHA Platform uses Sunbird UCI as a medium for states to configure interactive WhatsApp chatbot conversations for education use cases. The use cases range from academic quizzes and self-paced learning material distribution for students to academic surveys and forms used by teachers and administrators. Any user can go to the Diksha Tara Bot (+91 93102 00148), type the starting message and start using the bot.",
+        "evidenceURL": "https://drive.google.com/file/d/1wp2QlcLae3plH9zmBQudFs5A0BZwJ-A4/view"
+      },
+      {
+        "SDGNumber": 8,
+        "evidenceText": "The Employment Department, Government of Haryana leveraged Sunbird UCI to create a WhatsApp Bot (Rozgar Bot) for employment linkages. This bot enabled employers to post the job openings and interested candidates to apply for relevant job roles. ",
+        "evidenceURL": "https://drive.google.com/file/d/1UJ81Q7pknXjcSN4fiBCXnw8lOr-OIurC/view?usp=sharing"
+      },
+      {
+        "SDGNumber": 9,
+        "evidenceText": "UCI is a digital infrastructure that powers conversational use cases across domains such as education, healthcare delivery, agriculture, employment and skilling, local governance and service delivery et. al. Any adopter across these domains can use UCI to enable two key features: 1) Creation of a 2 way conversations for their end user 2) Direct notification/nudges to a targeted set of relevant end users.",
+        "evidenceURL": "https://uci.sunbird.org/learn/uci-use-cases"
+      }
+    ],
+    "sectors": [],
+    "type": [
+      "software"
+    ],
+    "repositories": [
+      {
+        "name": "APIs",
+        "url": "https://github.com/samagra-comms/uci-apis"
+      },
+      {
+        "name": "Inbound",
+        "url": "https://github.com/samagra-comms/inbound"
+      },
+      {
+        "name": "Transformer",
+        "url": "https://github.com/samagra-comms/transformer"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Samagra | Transforming Governance",
+        "website": "https://www.samagragovernance.in",
+        "org_type": "owner",
+        "contact_name": "Ujjwal Relan",
+        "contact_email": "org@samagragovernance.in"
       }
     ],
     "stage": "DPG"
