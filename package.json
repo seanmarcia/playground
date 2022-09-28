@@ -1,6 +1,7 @@
 {
   "name": "playground",
   "version": "0.1.0",
+  "homepage": "https://seanmarcia.github.io/dpgguidance",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
