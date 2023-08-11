@@ -2,6 +2,26 @@ import React, {useState} from 'react';
 import Select from "react-select";
 import SdgList from "./sdglist";
 import GithubInputs from "./githubInputs";
+import SkillsBased from "./skillsbased";
+
+const Instructions = () => (
+  <div data-theme="general-insights">
+  <h2>Instructions</h2>
+  <p>This tool is designed to generate HTML code for GitHub ReadMe files for digital public goods (DPGs) listed on
+    the <a href="https://digitalpublicgoods.net/registry/">DPGA registry</a>. Before using this tool, please
+    verify:</p>
+  <ul>
+    <li>The name of the DPG and if it is certified or a nominee.</li>
+    <li>Typographic best practices.</li>
+    <li>This tool assumes that you have, or will have created a ngo.md file in the repository containing information for NGOs who may wish to adopt your project.</li>
+    <li>This tool also assumes that you have, or will have created a sbv.md file in the repository containing information for teams of skills based volunteers who may wish to work on your project as volunteers.</li>
+    <li>Typographic best practices.</li>
+    <li>That you have write access (or higher) on the repository.</li>
+  </ul>
+  <p>Fill out the fields below, click the button to generate your code, and copy the code into your repository
+    ReadMe.</p>
+</div>
+);
 
 export default function DpgTable() {
   const [dpgType, setDpgtype] = useState()
@@ -17,23 +37,7 @@ export default function DpgTable() {
 
   return (
     <>
-
-      <div data-theme="general-insights">
-        <h2>Instructions</h2>
-        <p>This tool is designed to generate HTML code for GitHub ReadMe files for digital public goods (DPGs) listed on
-          the <a href="https://digitalpublicgoods.net/registry/">DPGA registry</a>. Before using this tool, please
-          verify:</p>
-        <ul>
-          <li>The name of the DPG and if it is certified or a nominee.</li>
-          <li>Typographic best practices.</li>
-          <li>This tool assumes that you have, or will have created a ngo.md file in the repository containing information for NGOs who may wish to adopt your project.</li>
-          <li>This tool also assumes that you have, or will have created a sbv.md file in the repository containing information for teams of skills based volunteers who may wish to work on your project as volunteers.</li>
-          <li>Typographic best practices.</li>
-          <li>That you have write access (or higher) on the repository.</li>
-        </ul>
-        <p>Fill out the fields below, click the button to generate your code, and copy the code into your repository
-          ReadMe.</p>
-      </div>
+      <Instructions/>
 
       <div data-theme="test">
         <h2>Generate your ReadMe Code</h2>
@@ -67,7 +71,7 @@ export default function DpgTable() {
       </div>
       {repository &&
         <SdgList organization={organization} stage={value.stage} repository={repository} selectedSdg={value}/>}
-      {/*{repository && <SkillsBased/>}*/}
+      {repository && <SkillsBased/>}
     </>
   );
 }

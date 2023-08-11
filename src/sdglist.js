@@ -60,10 +60,10 @@ export default function SdgList({organization, repository, stage, selectedSdg}) 
 
   let sdg = null;
 
-  selectedSdg.SDGs.forEach((sdgitem) => {
-    sdg = SDGTABLE.find(el => el.id === sdgitem.SDGNumber)
+  selectedSdg.sdgs.sdg.forEach((sdgitem) => {
+    // sdg = SDGTABLE.find(el => el.id === sdgitem.SDGNumber)
     rows.push(
-      `* [SDG ${sdg.id}](${sdg.url}) - ${sdg.name}`
+      `* ${sdgitem}`
     );
   });
 
